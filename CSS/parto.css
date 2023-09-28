@@ -1,0 +1,66 @@
+/*---FORMULARIOS---*/
+h5 {
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+  text-shadow: 2px 2px 2px white;
+}
+
+.principal {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.datos_parto {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 0;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 25%;
+  padding: 15px;
+  max-width: 500px;
+}
+
+.datos_parto label,
+.datos_parto input,
+.datos_parto select {
+  padding: .5%;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  width: 99.6%;
+}
+
+input:focus {
+  background-color: rgb(243, 248, 248)
+}
+
+#boton_calcular {
+  margin: 2px 38% 2px 38%;
+  color: black;
+  padding: 10px;
+  background-color: grey;
+  border: solid 3px black;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#boton_calcular:hover {
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+}
+
+.titulo_resultado {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.parto_resultado {
+  text-align: center;
+}

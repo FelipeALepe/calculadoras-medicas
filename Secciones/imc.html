@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Felipe Andrés Lepe V.">
+  <meta name="description" content="Fichas Médicas">
+  <title>Índice IMC</title>
+  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/34333a849a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../CSS/generales.css">
+  <link rel="stylesheet" href="../CSS/imc.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="menu">
+      <ul class="menu-horizontal">
+        <li><a href="../index.html"> <i class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="roma.html"><i class="fa-solid fa-calculator"></i>Algoritmo Roma</a></li>
+        <li><a href="homa.html"><i class="fa-solid fa-calculator"></i>Indice HOMA</a></li>
+        <li><a class="active" href="imc.html"><i class="fa-solid fa-calculator"></i>IMC</a></li>
+        <li><a href="parto.html"><i class="fa-solid fa-calculator"></i>Fecha de Parto</a></li>
+        <li><a href="gestacional.html"><i class="fa-solid fa-calculator"></i>Edad Gestacional</a></li>
+        <li><a href="vfg.html"><i class="fa-solid fa-calculator"></i>Índice VFG</a></li>
+        <li><a href="tfg.html"><i class="fa-solid fa-calculator"></i>Índice TFG</a></li>
+      </ul>
+      <div class="responsive">
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="titulo_secundario">Calculadora IMC</h1>
+    <h5>(Indice de Masa Corporal)</h5>
+    <hr>
+
+    <div class="principal">
+      <div class="datos_imc">
+        <label for="peso">Peso (kg)</label>
+        <input type="number" id="peso" name="peso" placeholder="Ingresar Peso (kg)" required>
+        <br>
+
+        <label for="estatura">Estatura (m)</label>
+        <input type="number" id="estatura" name="estatura" placeholder="Ingresar Estatura (m)" required>
+        <br>
+
+        <button id="boton_calcular">Calcular</button>
+
+        <div id="resultados"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <p>
+      Derechos Reservados &copy; 2023
+    <address>
+      Av. Mariana de Jesús OE-8, Centro Médico Meditropoli, Consultorio 315, Tercer Piso Telefóno 0999607033
+    </address>
+    </p>
+  </footer>
+
+  <script src="../JS/imc.js"></script>
+</body>
+
+</html>

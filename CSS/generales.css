@@ -1,0 +1,117 @@
+/*---GENERALES---*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+
+/*---TITULOS---*/
+h1 {
+  font-size: 30px;
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+  text-shadow: 2px 2px 2px white;
+}
+
+
+/*---ICONOS MENU--*/
+i {
+  padding: 0 5px;
+}
+
+
+/*---MENÚ---*/
+.active {
+  background-color: brown;
+}
+
+.menu {
+  width: 100%;
+  background-color: gray;
+  overflow: auto;
+}
+
+.menu a:hover {
+  background-color: brown;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu-horizontal li a {
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.menu-horizontal {
+  display: flex;
+  margin: 0;
+  padding: 12px;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+
+.menu-vertical {
+  position: absolute;
+  display: none;
+  width: 200px;
+  padding: 8px;
+  background-color: gray;
+}
+
+.menu-vertical li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.responsive {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .responsive {
+    display: block;
+    float: right;
+    padding: 12px;
+  }
+  i:not(.responsive) {
+    display: none;
+  }
+}
+
+
+/*---PIE DE PÁGINA---*/
+.footer {
+  background-color: #333;
+  color: #FFF;
+  padding: 2px;
+  text-align: center;
+  clear: both;
+  font-size: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
